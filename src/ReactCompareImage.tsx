@@ -380,7 +380,7 @@ const ReactCompareImage: React.FC<IProps> = props => {
   return (
     <>
       {skeleton && !allImagesLoaded && (
-        <div style={{ ...styles.container }}>{skeleton}</div>
+        <div>{skeleton}</div>
       )}
 
       <div
